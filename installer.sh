@@ -9,7 +9,6 @@ red='\e[1;31m'
 yellow='\e[1;33m'
 blue='\e[1;34m'
 #Check root exist
-[[ `id -u` -eq 0 ]] > /dev/null 2>&1 || { echo  $red "You must be root to run the script"; exit 1; }
 echo " ______   _______ _________ _______  _______ _________ _______  _______   ";
 echo "(  __  \ / ___   )\__    _/(  ____ \(  ____ \\__   __/(  ____ \(  ____ )  ";
 echo "| (  \  )\/   )  |   )  (  | (    \/| (    \/   ) (   | (    \/| (    )|  ";
